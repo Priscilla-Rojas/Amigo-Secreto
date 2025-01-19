@@ -1,4 +1,4 @@
-# Amigo Secreto - One Next Oracle Challenge 🎉
+# Amigo Secreto - One Next Alura - Oracle Challenge 🎉
 
 Este proyecto fue desarrollado como parte del programa **One Next Oracle** y tiene como objetivo principal proporcionar una herramienta interactiva y divertida para realizar el tradicional juego del "Amigo Secreto". Además, busca fortalecer habilidades en lógica de programación.
 
