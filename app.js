@@ -24,3 +24,19 @@ function actualizarLista(listaAmigos) {
     console.log(amigos)
   }
 }
+
+function sortearAmigo(){
+  if (!amigos.length) {
+    alert('La lista de amigos esta vacia.');
+    return
+  }
+  let cantidadAmigos = amigos.length
+  let numero = Math.floor(Math.random()*cantidadAmigos);
+  console.log(numero)
+  
+  let contenedorResultado = document.getElementById('resultado');
+  contenedorResultado.innerHTML = '';
+  let li = document.createElement('li');  
+  li.textContent = amigos[numero];
+  contenedorResultado.appendChild(li);
+}
