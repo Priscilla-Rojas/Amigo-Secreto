@@ -16,7 +16,7 @@
 }
 
 body {
-    height: 100vh;
+    height: max-content;
     background-color: var(--color-primary);
     display: flex;
     justify-content: center;
@@ -26,14 +26,18 @@ body {
 .main-content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     width: 100%;
 }
 
 /* Banner */
 .header-banner {
+    height: max-content;
     flex: 40%;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
