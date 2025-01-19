@@ -16,7 +16,8 @@
 }
 
 body {
-    height: max-content;
+    height: 100vh;
+    min-height: max-content;
     background-color: var(--color-primary);
     display: flex;
     justify-content: center;
