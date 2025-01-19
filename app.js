@@ -11,4 +11,16 @@ function agregarAmigo() {
     alert('Por favor, inserte un nombre.');
   };
   input.value = '';
+  console.log(nombre)
 } 
+
+function actualizarLista(listaAmigos) {
+  let lista = document.getElementById('listaAmigos');
+  lista.innerHTML = '';
+  for (const element of listaAmigos) {
+    let li = document.createElement('li');
+    li.innerHTML= element;
+    lista.appendChild(li);
+    console.log(amigos)
+  }
+}
